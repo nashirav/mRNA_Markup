@@ -11,12 +11,7 @@
 
 
 <ol>
-<li>Bird</li>
-<li>McHale</li>
-<li>Parish</li>
-</ol>
-
-1. Description
+<li>Description</li>
 
 This Galaxy tool is based on BioExtract mRNA Markup workflow.
 This workflow represents comprehensive annotation 
@@ -45,7 +40,7 @@ For more information see:
 
 
 
-2. Installation requirements
+<li>Installation requirements</li>
 
 Before you start makes sure that 
 (1) ncbi-blast+
@@ -64,13 +59,13 @@ to parse output from older BLAST versions.
 
 
 
-3. Formatting a local nucleotide and peptide database using BLAST+
+<li>Formatting a local nucleotide and peptide database using BLAST+</li>
 
 The workflow uses a sample input file consisting of Arabidopsis mRNA and searches the following BLAST databases by default:
 
-BacteriaDB and RefProtDB	 	http://www.bioextract.org/Download?action=zip&file=AllOutput.zip&src=/usr/local/BioStreamServer/tmpFiles/mRNA_Markup_Start/1291915878836
-AllProtDB 				http://www.uniprot.org/uniref/?query=identity:0.9+taxonomy:33090&format=*&compress=yes
-Smart_LE/Smart				ftp://ftp.ncbi.nih.gov/pub/mmdb/cdd/big_endian/
+BacteriaDB and RefProtDB	 	http://www.bioextract.org/Download?action=zip&file=AllOutput.zip&src=/usr/local/BioStreamServer/tmpFiles/mRNA_Markup_Start/1291915878836<br>
+AllProtDB 				http://www.uniprot.org/uniref/?query=identity:0.9+taxonomy:33090&format=*&compress=yes<br>
+Smart_LE/Smart				ftp://ftp.ncbi.nih.gov/pub/mmdb/cdd/big_endian/<br>
 UniVec					ftp://ftp.ncbi.nih.gov/pub/UniVec/
 
 
@@ -86,14 +81,15 @@ Note: Smart databases do not need formatting. This databaes is already formatted
 
 
 
-4. Integration with a local version of GALAXY
+<li>Integration with a local version of GALAXY</li>
 
 Simply copy the galaxy_dist directory from the repository onto the GALAXY directory tree.
 The mRNA_Markup was tested only with a local GALAXY version.
+</ol>
 
 
 ********************
-Katarzyna Wręczycka 
-email: kw292555@students.mimuw.edu.pl
+Katarzyna Wręczycka<br>
+email: kw292555@students.mimuw.edu.pl<br>
 18.01.2013
 
