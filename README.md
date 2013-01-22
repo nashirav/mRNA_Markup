@@ -18,7 +18,7 @@ This workflow represents comprehensive annotation
 and primary analysis of a set of transcripts.
 
 It consists of several "steps" each using several analytic tools:
-
+<br>
 0. Submit input: initial mRNA (query file) <br><br>
 		 bacterial contamination database in FASTA format (a file representing typical bacterial hosts) <br>
 		 reference protein database in FASTA format (proteins most likely to have homologs in the mRNA translations of the input)<br>
@@ -58,7 +58,7 @@ to parse output from older BLAST versions.
 <br>
 
 
-
+<br>
 <li>Formatting a local nucleotide and peptide database using BLAST+</li>
 <br>
 The workflow uses a sample input file consisting of Arabidopsis mRNA and searches the following BLAST databases by default:<br><br>
@@ -66,12 +66,12 @@ The workflow uses a sample input file consisting of Arabidopsis mRNA and searche
 BacteriaDB and RefProtDB	 	http://www.bioextract.org/Download?action=zip&file=AllOutput.zip&src=/usr/local/BioStreamServer/tmpFiles/mRNA_Markup_Start/1291915878836<br>
 AllProtDB 				http://www.uniprot.org/uniref/?query=identity:0.9+taxonomy:33090&format=*&compress=yes<br>
 Smart_LE/Smart				ftp://ftp.ncbi.nih.gov/pub/mmdb/cdd/big_endian/<br>
-UniVec					ftp://ftp.ncbi.nih.gov/pub/UniVec/
+UniVec					ftp://ftp.ncbi.nih.gov/pub/UniVec/<br>
 
 <br>
 Command for formatting nucleotide databases:<br>
 makeblastdb -dbtype nucl -in DATABASE -parse_seqids<br>
-<br><br>
+<br>
 
 Command for formatting for protein databases:<br>
 makeblastdb -dbtype prot -in DATABASE -parse_seqids<br>
@@ -79,8 +79,7 @@ makeblastdb -dbtype prot -in DATABASE -parse_seqids<br>
 <br><br>
 Note: Smart databases do not need formatting. This databaes is already formatted and packed and available from the website mentioned above.
 
-<br>
-
+<br><br>
 <li>Integration with a local version of GALAXY</li>
 <br>
 Simply copy the galaxy_dist directory from the repository onto the GALAXY directory tree.<br>
