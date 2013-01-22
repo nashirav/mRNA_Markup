@@ -17,12 +17,12 @@ This Galaxy tool is based on BioExtract mRNA Markup workflow.
 This workflow represents comprehensive annotation 
 and primary analysis of a set of transcripts.
 
-It consists of several "steps" each using several analytic tools:
+It consists of several "steps" each using several analytic tools:<br>
 <br>
 0. Submit input: initial mRNA (query file) <br><br>
 		 bacterial contamination database in FASTA format (a file representing typical bacterial hosts) <br>
 		 reference protein database in FASTA format (proteins most likely to have homologs in the mRNA translations of the input)<br>
-		 comprehensive protein database in FASTA format (to be searched when the reference protein set did not give hits)<br><br>
+		 comprehensive protein database in FASTA format (to be searched when the reference protein set did not give hits)<br>
 1. Eliminate Vector Contamination<br>
 2. Eliminate bacterial contamination<br>
 3. Find matches in a reference protein database <br>
