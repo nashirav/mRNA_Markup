@@ -19,7 +19,7 @@ and primary analysis of a set of transcripts.
 
 It consists of several "steps" each using several analytic tools:<br>
 <br>
-0. Submit input: initial mRNA (query file) <br><br>
+0. Submit input: initial mRNA (query file) <br>
 		 bacterial contamination database in FASTA format (a file representing typical bacterial hosts) <br>
 		 reference protein database in FASTA format (proteins most likely to have homologs in the mRNA translations of the input)<br>
 		 comprehensive protein database in FASTA format (to be searched when the reference protein set did not give hits)<br>
