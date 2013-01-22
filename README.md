@@ -1,6 +1,6 @@
 
 
-mRNA_Markup
+**mRNA_Markup**
 
 
 1. Description
@@ -10,6 +10,11 @@ mRNA_Markup
 
 
 
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
 
 1. Description
 
@@ -26,8 +31,8 @@ It consists of several "steps" each using several analytic tools:
 1. Eliminate Vector Contamination
 2. Eliminate bacterial contamination
 3. Find matches in a reference protein database 
-    3.1. Identify potential full-length coding sequences 
-    3.2. Identify potential chimeric sequences
+3.1. Identify potential full-length coding sequences 
+3.2. Identify potential chimeric sequences
 4. Find matches in a Comprehensive Protein database
 5. Find matches in Protein Domain Database
 6. Produce summary report
