@@ -1,5 +1,4 @@
 
-
 **mRNA_Markup**
 
 
@@ -42,7 +41,7 @@ For more information see:<br>
 
 <li>Installation requirements</li>
 <br>
-Before you start makes sure that <br>
+Before you start make sure that <br>
 (1) ncbi-blast+<br>
 (2) biopython<br>
 (3) MuSeqBox<br>
